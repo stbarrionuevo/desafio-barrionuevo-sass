@@ -22,17 +22,22 @@ body{
     color: $color-secundario-kanki;
      transition: all 1s;
 
+    &:hover{
+        color: $color-principal-kanki;
+    }
+
+   
+
     li a{
         color: $color-secundario-kanki;
         transition: all 1s;
+        &:hover{color: $color-principal-kanki;}
             }
 
-    li{
-        a:hover{color: $color-principal-kanki;}
-    }
+
 }
 
-.li-estilo:hover{color: $color-principal-kanki;}
+
 
 
 ul
@@ -43,11 +48,8 @@ ul
 }
 
 .menu-hamburguesa{
-    background-color:$color-secundario-kanki
-}
-
-.menu-hamburguesa:hover{
-    background-color: $color-principal-kanki;
+    background-color:$color-secundario-kanki;
+    &:hover{background-color: $color-principal-kanki;}
 }
 
 /* Fin de estilo de nav*/
@@ -65,11 +67,13 @@ ul
     font-size: 2em;
     font-family: $fuente-titulo;
     margin-top: 2em;
-    transition: all 1s;}
+    transition: all 1s;
+    &:hover{
+        color: $color-principal-kanki;
+        transform: translateX(-1em); 
+    }}
 
- .titulo-kanki:hover{
-     color: $color-principal-kanki;
-    transform: translateX(-1em);}
+ 
     
 
 .parrafo-kanki{
@@ -89,13 +93,13 @@ ul
     margin-bottom: 1em;
     margin-right: 1em;
     border-radius: 80%;
-    transition: all 5s;   
+    transition: all 5s;  
+    &:hover{
+        transform: rotateY(360deg);
+        cursor: help; 
+    }
 }
 
-.wsp-logo:hover{
-    transform: rotateY(360deg);
-    cursor: help;
-}
 
 /*Fin de estilo de sección 1 *//**************/
 
@@ -110,15 +114,14 @@ ul
     font-family: $fuente-titulo;
     transition: all 2s;
     border: 5px double $color-principal-kanki;
-
+    &:hover{
+        color:$color-principal-kanki ;
+        background-color: $color-footer;
+        border: 5px solid #fff;
+        outline: 5px solid #000;
+    }
 }
 
-.titulo-productos:hover{
-  color:$color-principal-kanki ;
-  background-color: $color-footer;
-  border: 5px solid #fff;
-  outline: 5px solid #000;
-}
 /*ESTILO IMAGENES DE CAMISETAS de carrousel*/
 .sec-camisetas{
     width: 30%;
@@ -156,6 +159,17 @@ ul
     border-radius: 50px;
     transition: all 1s; 
 
+    &:hover{
+        text-align: center;
+        margin: 1em;
+        font-size: 1em;
+        font-family: $fuente-titulo;
+        border: 2px solid #000000;
+        background-color: #fff;
+        color: $color-principal-kanki;
+        border-radius: 50px;
+    }
+
     a {
         text-decoration: none;
         color: $color-principal-kanki;
@@ -164,31 +178,13 @@ ul
         margin-left: .2em;
         display: inline-block;
         transition: all .5s;
+        &:hover{color: #000000;
+            border: none;}
     }
   
 
 }
 
-.productos-link-a-catalogo:hover{
-  
-    text-align: center;
-    margin: 1em;
-    font-size: 1em;
-    font-family: $fuente-titulo;
-    border: 2px solid #000000;
-    background-color: #fff;
-    color: $color-principal-kanki;
-    border-radius: 50px;
-    
-  
-
-}
-
-.productos-link-a-catalogo a:hover {
-    color: #000000;
-    border: none;
-  
-}
 /* Fin de estilo de sección 2*//*************************/
 /* Comienzo de estilo de sección 3*/
 /*ESTILO DE CONTENEDOR DE PARTE ENVIO*/
@@ -210,16 +206,14 @@ ul
     font-family: $fuente-titulo;
     margin-top: 3em;
     transition: all .5s;
- 
+    &:hover{
+        color: $color-principal-kanki;
+        transform: translateX(-.5em); 
+    }
    
    
 }
 
-.envios-titulo:hover{
-
-    color: $color-principal-kanki;
-    transform: translateX(-.5em);
-}
 .envios-texto{
     color: $color-footer;
     margin-top: 2em;
@@ -252,16 +246,13 @@ footer{
 
     i{color: #fff;
         margin: 10px auto;
-        transition: all .5s;}
+        transition: all .5s;
+        &:hover{
+        color: $color-principal-kanki;
+        }
+    }
     
 }
-
-.footer-images-container i:hover{
-   
-    color: $color-principal-kanki;
-      
-  }
-
   /*ESTILO DE TEXTO DE FOOTER*/
 
   .text-footer-container{
@@ -276,15 +267,11 @@ footer{
     font-family: $fuente-titulo;
     color: #fff;
     transition: all 1s;
+    &:hover{
+        color: $color-principal-kanki;
+        cursor: default;
+    }
 }
-
-.text-footer:hover{
-   
-    color: $color-principal-kanki;
-    cursor: default;
-      
-  }
- 
 
 /********************************************************************
 //////////////////////////*FIN ESTILO INDEX*//*********************************************************************/
@@ -300,12 +287,11 @@ footer{
     border: 4px double #f8f9fa;
     border-radius: 50px;
     transition: all 1s;
-}
-.titulo-catalogo:hover{
-    color: $color-principal-kanki;
-    
- }
 
+    &:hover{
+        color: $color-principal-kanki;
+    }
+}
 /*CONTAINERS*/
  .container-img{ 
      .products-container{
@@ -326,15 +312,13 @@ footer{
     margin: 1em auto;
    border: 2px solid black;
     transition: all .5s;
-   
-    
-}
-.images-catalogo:hover {
- 
+   &:hover{
     cursor: zoom-in;
     transform: scale(110%);
+   }
     
 }
+
 .card{
     outline: 2px solid #000;
 }
@@ -346,6 +330,10 @@ footer{
     margin: 2em;
     border: 2px solid #000;
     transition: all 1.5s;
+    cursor: default;
+    &:hover{
+        color: $color-principal-kanki;
+    }
     
     h2{
         font-size: 1.5em;
@@ -356,9 +344,7 @@ footer{
         color: $color-principal-kanki;
     }
 }
-.div-talle:hover{
-    color: $color-principal-kanki;
-}
+
 /**********************************************************************
                 FIN DE ESTILO DE HTML CATALOGO
 **********************************************************************/
@@ -373,7 +359,8 @@ footer{
     border: 5px double #fff;
     background-color: $color-footer;
     color: #f8f9fa;
-   
+   &:hover{  color: $color-principal-kanki;
+    transform: translateX(-.3em);}
  
     
 }
@@ -384,30 +371,37 @@ footer{
     font-family: $fuente-titulo;
     color: $color-principal-kanki;
     transition: all .5s;
+    &:hover{transform: translateX(-.3em);}
 }
 
-.titulo-ayuda:hover , .titulo-politicas:hover{
+
+.titulo-politicas{
+    font-size: 2em;
+    font-family: $fuente-titulo;
+    margin-top: 2em;
+    transition: all .5s;
+    &:hover{
 
     color: $color-principal-kanki;
       transform: translateX(-.3em);
   
    
   
-  }
-  .titulo-terminos:hover{
-    transform: translateX(-.3em);
-}
+  }}
+  
+
 
 /*ESTILOS MEDIOS DE PAGO*/
 .iconos-medios-pago{
     width: 10%;
     margin: 2em;
 }
-.pago , .titulo-politicas{
+.pago{
     font-size: 2em;
     font-family: $fuente-titulo;
     margin-top: 2em;
     transition: all 1s;
+    &:hover{color: $color-secundario-kanki;}
 }
 
 .titulo-preguntas{
@@ -415,16 +409,12 @@ footer{
     font-family: $fuente-titulo;
     margin-top: 2em;
     transition: all 1.5s;
+    &:hover{
+        color: $color-principal-kanki;
+        transform: translateY(-1em);
+    }
 }
-.titulo-preguntas:hover{
 
-    color: $color-principal-kanki;
-      transform: translateY(-1em);
-      
-  
-   
-      
-  }
 
     /*ESTILO DE TABLA*/
 
@@ -445,21 +435,17 @@ footer{
     border: 2px solid $color-footer;
     margin: 2em;
     transition: all 1.5s;
+    &:hover{
+        background-color: $color-footer;
+    }
 
     a{
         color: #000;
         text-decoration: none;
         transition: 1.5s;
+        &:hover{color: $color-principal-kanki;}
     }
 }
-
-.boton-volver:hover{
-    background-color: $color-footer;
-
-    a{color: $color-principal-kanki;}
-}
-
-
 /*MEDIA Q*/
 
 @media(max-width:1000px){
@@ -480,6 +466,12 @@ footer{
         width: 8%;
     }
  
+    .text-footer {
+        font-size: .4em;
+
+        &:nth-child(3){margin-right: 15em;}
+    }
+
 
 
 

@@ -11,15 +11,14 @@ body {
   color: #daa520;
   transition: all 1s;
 }
+.li-estilo:hover {
+  color: rgb(227, 143, 33);
+}
 .li-estilo li a {
   color: #daa520;
   transition: all 1s;
 }
 .li-estilo li a:hover {
-  color: rgb(227, 143, 33);
-}
-
-.li-estilo:hover {
   color: rgb(227, 143, 33);
 }
 
@@ -30,7 +29,6 @@ ul li a {
 .menu-hamburguesa {
   background-color: #daa520;
 }
-
 .menu-hamburguesa:hover {
   background-color: rgb(227, 143, 33);
 }
@@ -50,7 +48,6 @@ ul li a {
   margin-top: 2em;
   transition: all 1s;
 }
-
 .titulo-kanki:hover {
   color: rgb(227, 143, 33);
   transform: translateX(-1em);
@@ -71,7 +68,6 @@ ul li a {
   border-radius: 80%;
   transition: all 5s;
 }
-
 .wsp-logo:hover {
   transform: rotateY(360deg);
   cursor: help;
@@ -88,7 +84,6 @@ ul li a {
   transition: all 2s;
   border: 5px double rgb(227, 143, 33);
 }
-
 .titulo-productos:hover {
   color: rgb(227, 143, 33);
   background-color: #161616;
@@ -130,14 +125,6 @@ ul li a {
   border-radius: 50px;
   transition: all 1s;
 }
-.productos-link-a-catalogo a {
-  text-decoration: none;
-  color: rgb(227, 143, 33);
-  margin-left: 0.2em;
-  display: inline-block;
-  transition: all 0.5s;
-}
-
 .productos-link-a-catalogo:hover {
   text-align: center;
   margin: 1em;
@@ -148,7 +135,13 @@ ul li a {
   color: rgb(227, 143, 33);
   border-radius: 50px;
 }
-
+.productos-link-a-catalogo a {
+  text-decoration: none;
+  color: rgb(227, 143, 33);
+  margin-left: 0.2em;
+  display: inline-block;
+  transition: all 0.5s;
+}
 .productos-link-a-catalogo a:hover {
   color: #000000;
   border: none;
@@ -171,7 +164,6 @@ ul li a {
   margin-top: 3em;
   transition: all 0.5s;
 }
-
 .envios-titulo:hover {
   color: rgb(227, 143, 33);
   transform: translateX(-0.5em);
@@ -205,7 +197,6 @@ footer {
   margin: 10px auto;
   transition: all 0.5s;
 }
-
 .footer-images-container i:hover {
   color: rgb(227, 143, 33);
 }
@@ -224,7 +215,6 @@ footer {
   color: #fff;
   transition: all 1s;
 }
-
 .text-footer:hover {
   color: rgb(227, 143, 33);
   cursor: default;
@@ -244,7 +234,6 @@ footer {
   border-radius: 50px;
   transition: all 1s;
 }
-
 .titulo-catalogo:hover {
   color: rgb(227, 143, 33);
 }
@@ -269,7 +258,6 @@ footer {
   border: 2px solid black;
   transition: all 0.5s;
 }
-
 .images-catalogo:hover {
   cursor: zoom-in;
   transform: scale(110%);
@@ -285,6 +273,10 @@ footer {
   margin: 2em;
   border: 2px solid #000;
   transition: all 1.5s;
+  cursor: default;
+}
+.div-talle:hover {
+  color: rgb(227, 143, 33);
 }
 .div-talle h2 {
   font-size: 1.5em;
@@ -292,10 +284,6 @@ footer {
 }
 .div-talle a {
   text-decoration: none;
-  color: rgb(227, 143, 33);
-}
-
-.div-talle:hover {
   color: rgb(227, 143, 33);
 }
 
@@ -313,6 +301,10 @@ footer {
   background-color: #161616;
   color: #f8f9fa;
 }
+.titulo-ayuda:hover {
+  color: rgb(227, 143, 33);
+  transform: translateX(-0.3em);
+}
 
 .titulo-terminos {
   margin: 2em auto;
@@ -321,13 +313,18 @@ footer {
   color: rgb(227, 143, 33);
   transition: all 0.5s;
 }
-
-.titulo-ayuda:hover, .titulo-politicas:hover {
-  color: rgb(227, 143, 33);
+.titulo-terminos:hover {
   transform: translateX(-0.3em);
 }
 
-.titulo-terminos:hover {
+.titulo-politicas {
+  font-size: 2em;
+  font-family: "PT Serif", serif;
+  margin-top: 2em;
+  transition: all 0.5s;
+}
+.titulo-politicas:hover {
+  color: rgb(227, 143, 33);
   transform: translateX(-0.3em);
 }
 
@@ -337,11 +334,14 @@ footer {
   margin: 2em;
 }
 
-.pago, .titulo-politicas {
+.pago {
   font-size: 2em;
   font-family: "PT Serif", serif;
   margin-top: 2em;
   transition: all 1s;
+}
+.pago:hover {
+  color: #daa520;
 }
 
 .titulo-preguntas {
@@ -350,7 +350,6 @@ footer {
   margin-top: 2em;
   transition: all 1.5s;
 }
-
 .titulo-preguntas:hover {
   color: rgb(227, 143, 33);
   transform: translateY(-1em);
@@ -374,16 +373,15 @@ footer {
   margin: 2em;
   transition: all 1.5s;
 }
+.boton-volver:hover {
+  background-color: #161616;
+}
 .boton-volver a {
   color: #000;
   text-decoration: none;
   transition: 1.5s;
 }
-
-.boton-volver:hover {
-  background-color: #161616;
-}
-.boton-volver:hover a {
+.boton-volver a:hover {
   color: rgb(227, 143, 33);
 }
 
@@ -397,6 +395,12 @@ footer {
   }
   .wsp-logo {
     width: 8%;
+  }
+  .text-footer {
+    font-size: 0.4em;
+  }
+  .text-footer:nth-child(3) {
+    margin-right: 15em;
   }
 }
 
