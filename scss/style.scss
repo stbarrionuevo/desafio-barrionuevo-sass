@@ -123,6 +123,11 @@ ul
 }
 
 /*ESTILO IMAGENES DE CAMISETAS de carrousel*/
+
+.carrousel-estilo{
+    background-color: $color-footer;
+}
+
 .sec-camisetas{
     width: 30%;
   
@@ -472,7 +477,7 @@ footer{
     .text-footer {
         font-size: .4em;
 
-        &:nth-child(3){margin-right: 15em;}
+        &:nth-child(3){margin-right: 5em;}
     }
 
 
