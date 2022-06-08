@@ -1,0 +1,71 @@
+@import'../base/variables';
+
+/*COMIENZO DE ESTILO DE CATALOGO*/
+/*ESTILO TITULO*/
+
+.titulo-catalogo{
+    font-size: 2em;
+    font-family:$fuente-titulo;
+    margin-top: 2em;
+    color: #fff;
+    background-color: #000000;
+    border: 4px double #f8f9fa;
+    border-radius: 50px;
+    transition: all 1s;
+
+    &:hover{
+        color: $color-principal-kanki;
+    }
+}
+/*CONTAINERS*/
+ .container-img{ 
+     .products-container{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+}
+
+.contenedor-cards{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+/*ESTILO DE IMGS*/
+
+.images-catalogo {
+    width: 100%;
+    height: 80%;
+    margin: 1em auto;
+   border: 2px solid black;
+    transition: all .5s;
+   &:hover{
+    cursor: zoom-in;
+    transform: scale(110%);
+   }
+    
+}
+
+.card{
+    outline: 2px solid #000;
+}
+
+
+.div-talle{
+    background-color: $color-footer;
+    color: aliceblue;
+    margin: 2em;
+    border: 2px solid #000;
+    transition: all 1.5s;
+    cursor: default;
+    &:hover{
+        color: $color-principal-kanki;
+    }
+    
+    h2{
+        font-size: 1.5em;
+        font-family: $fuente-titulo;}
+
+    a{
+        text-decoration: none;
+        color: $color-principal-kanki;
+    }
+}

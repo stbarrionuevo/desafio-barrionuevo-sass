@@ -1,40 +1,4 @@
 @charset "UTF-8";
-/*Estilo de Body*/
-body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-  background-color: #fffff1;
-}
-
-/*Estilo de NAV*/
-.li-estilo {
-  color: #daa520;
-  transition: all 1s;
-}
-.li-estilo:hover {
-  color: rgb(227, 143, 33);
-}
-.li-estilo li a {
-  color: #daa520;
-  transition: all 1s;
-}
-.li-estilo li a:hover {
-  color: rgb(227, 143, 33);
-}
-
-ul li a {
-  font-family: "Macondo", cursive;
-}
-
-.menu-hamburguesa {
-  background-color: #daa520;
-}
-.menu-hamburguesa:hover {
-  background-color: rgb(227, 143, 33);
-}
-
-/* Fin de estilo de nav*/
-/***********************************************************/
 /*Estilo section 1 index*/
 .video-div {
   border: 5px double #000;
@@ -183,49 +147,6 @@ ul li a {
 }
 
 /* Fin de estilo de sección 3*/
-/* Comienzo FOOTER*/
-/*ESTILO DE FOOTER*/
-footer {
-  padding: 2em;
-  background-color: #161616;
-  border: 5px double #000000;
-}
-
-.footer-images-container {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-}
-.footer-images-container i {
-  color: #fff;
-  margin: 10px auto;
-  transition: all 0.5s;
-}
-.footer-images-container i:hover {
-  color: rgb(227, 143, 33);
-}
-
-/*ESTILO DE TEXTO DE FOOTER*/
-.text-footer-container {
-  display: flex;
-  justify-content: space-between;
-  font-size: 1em;
-  padding-top: 2em;
-}
-
-.text-footer {
-  text-align: center;
-  font-family: "PT Serif", serif;
-  color: #fff;
-  transition: all 1s;
-}
-.text-footer:hover {
-  color: rgb(227, 143, 33);
-  cursor: default;
-}
-
-/********************************************************************
-//////////////////////////*FIN ESTILO INDEX*/ /*********************************************************************/
 /*COMIENZO DE ESTILO DE CATALOGO*/
 /*ESTILO TITULO*/
 .titulo-catalogo {
@@ -291,9 +212,6 @@ footer {
   color: rgb(227, 143, 33);
 }
 
-/**********************************************************************
-                FIN DE ESTILO DE HTML CATALOGO
-**********************************************************************/
 /*ESTILO DE HTML AYUDA*/
 .titulo-ayuda {
   text-align: center;
@@ -387,6 +305,81 @@ footer {
 }
 .boton-volver a:hover {
   color: rgb(227, 143, 33);
+}
+
+/*Estilo de Body*/
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #fffff1;
+}
+
+/*Estilo de NAV*/
+.li-estilo {
+  color: #daa520;
+  transition: all 1s;
+}
+.li-estilo:hover {
+  color: rgb(227, 143, 33);
+}
+.li-estilo li a {
+  color: #daa520;
+  transition: all 1s;
+}
+.li-estilo li a:hover {
+  color: rgb(227, 143, 33);
+}
+
+ul li a {
+  font-family: "Macondo", cursive;
+}
+
+.menu-hamburguesa {
+  background-color: #daa520;
+}
+.menu-hamburguesa:hover {
+  background-color: rgb(227, 143, 33);
+}
+
+/* Comienzo FOOTER*/
+/*ESTILO DE FOOTER*/
+footer {
+  padding: 2em;
+  background-color: #161616;
+  border: 5px double #000000;
+}
+
+.footer-images-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.footer-images-container i {
+  color: #fff;
+  margin: 10px auto;
+  transition: all 0.5s;
+}
+.footer-images-container i:hover {
+  color: rgb(227, 143, 33);
+}
+
+/*ESTILO DE TEXTO DE FOOTER*/
+.text-footer-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1em;
+  padding-top: 2em;
+}
+
+.text-footer {
+  text-align: center;
+  font-family: "PT Serif", serif;
+  color: #fff;
+  transition: all 1s;
+}
+.text-footer:hover {
+  color: rgb(227, 143, 33);
+  cursor: default;
 }
 
 /*MEDIA Q*/

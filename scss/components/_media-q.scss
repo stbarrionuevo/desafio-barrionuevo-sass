@@ -1,0 +1,36 @@
+
+
+/*MEDIA Q*/
+
+@media(max-width:1000px){
+
+    
+    .redireccion-catalogo{
+        display: none;
+    }
+    .contenedor-cards{
+
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+        justify-items: center;
+        
+    }
+    
+
+
+    .wsp-logo{
+        width: 8%;
+    }
+ 
+    .text-footer {
+        font-size: .4em;
+
+        &:nth-child(3){margin-right: 5em;}
+    }
+
+
+
+
+
+}

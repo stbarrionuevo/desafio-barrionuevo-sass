@@ -1,0 +1,94 @@
+@import'../base/variables';
+
+/*Estilo de Body*/
+body{
+    margin: 0;
+     font-family: 'Roboto', sans-serif;
+     background-color: #fffff1;
+    
+ }
+ 
+ /*Estilo de NAV*/
+
+.li-estilo{ 
+    color: $color-secundario-kanki;
+     transition: all 1s;
+
+    &:hover{
+        color: $color-principal-kanki;
+    }
+
+   
+
+    li a{
+        color: $color-secundario-kanki;
+        transition: all 1s;
+        &:hover{color: $color-principal-kanki;}
+            }
+
+
+}
+
+
+
+
+ul
+{
+ li {
+        a{font-family: "Macondo", cursive;}
+    }
+}
+
+.menu-hamburguesa{
+    background-color:$color-secundario-kanki;
+    &:hover{background-color: $color-principal-kanki;}
+}
+
+/* Comienzo FOOTER*/
+
+
+/*ESTILO DE FOOTER*/
+footer{
+    padding: 2em;
+    background-color: $color-footer;
+    border: 5px double #000000;
+   
+    
+}
+
+
+.footer-images-container{
+    display: flex;
+
+    flex-direction: row-reverse;
+
+    justify-content: space-around;
+
+    i{color: #fff;
+        margin: 10px auto;
+        transition: all .5s;
+        &:hover{
+        color: $color-principal-kanki;
+        }
+    }
+    
+}
+  /*ESTILO DE TEXTO DE FOOTER*/
+
+  .text-footer-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    padding-top: 2em;
+}
+
+.text-footer {
+    text-align: center;
+    font-family: $fuente-titulo;
+    color: #fff;
+    transition: all 1s;
+    &:hover{
+        color: $color-principal-kanki;
+        cursor: default;
+    }
+}

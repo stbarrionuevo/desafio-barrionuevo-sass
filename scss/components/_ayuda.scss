@@ -1,0 +1,100 @@
+@import'../base/variables';
+
+/*ESTILO DE HTML AYUDA*/
+.titulo-ayuda {
+
+    text-align: center;
+    font-size: 2em;
+    font-family: $fuente-titulo;
+    margin-top: 2em;
+    transition: all .5s;
+    border: 5px double #fff;
+    background-color: $color-footer;
+    color: #f8f9fa;
+   &:hover{  color: $color-principal-kanki;
+    transform: translateX(-.3em);}
+ 
+    
+}
+
+.titulo-terminos{
+    margin: 2em auto;
+    font-size: 2em;
+    font-family: $fuente-titulo;
+    color: $color-principal-kanki;
+    transition: all .5s;
+    &:hover{transform: translateX(-.3em);}
+}
+
+
+.titulo-politicas{
+    font-size: 2em;
+    font-family: $fuente-titulo;
+    margin-top: 2em;
+    transition: all .5s;
+    &:hover{
+
+    color: $color-principal-kanki;
+      transform: translateX(-.3em);
+  
+   
+  
+  }}
+  
+
+
+/*ESTILOS MEDIOS DE PAGO*/
+.iconos-medios-pago{
+    width: 10%;
+    margin: 2em;
+}
+.pago{
+    font-size: 2em;
+    font-family: $fuente-titulo;
+    margin-top: 2em;
+    transition: all 1s;
+    &:hover{color: $color-secundario-kanki;}
+}
+
+.titulo-preguntas{
+    font-size: 2em;
+    font-family: $fuente-titulo;
+    margin-top: 2em;
+    transition: all 1.5s;
+    &:hover{
+        color: $color-principal-kanki;
+        transform: translateY(-1em);
+    }
+}
+
+
+    /*ESTILO DE TABLA*/
+
+
+.titulo-tabla-talles{
+     font-size: 2em;
+     font-family: $fuente-titulo;
+     margin-top: 2em;
+      }
+    
+      .table{
+        margin-top: 4em;
+    }
+
+  /*ESTILO BOTÓN*/
+  .boton-volver {
+    background-color: $color-principal-kanki;
+    border: 2px solid $color-footer;
+    margin: 2em;
+    transition: all 1.5s;
+    &:hover{
+        background-color: $color-footer;
+    }
+
+    a{
+        color: #000;
+        text-decoration: none;
+        transition: 1.5s;
+        &:hover{color: $color-principal-kanki;}
+    }
+}
