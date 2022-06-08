@@ -387,6 +387,9 @@ footer {
 
 /*MEDIA Q*/
 @media (max-width: 1000px) {
+  .redireccion-catalogo {
+    display: none;
+  }
   .contenedor-cards {
     display: grid;
     grid-template-columns: 1fr;
