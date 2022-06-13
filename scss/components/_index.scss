@@ -1,4 +1,6 @@
 @import'../base/variables';
+@import'../base/extend';
+@import'../base/mixins';
 
 /*Estilo section 1 index*/
 
@@ -10,9 +12,7 @@
 .titulo-kanki {
 
     text-align: center;
-    font-size: 2em;
-    font-family: $fuente-titulo;
-    margin-top: 2em;
+    @extend %estilotitulo;
     transition: all 1s;
     &:hover{
         color: $color-principal-kanki;
@@ -55,11 +55,8 @@
 .titulo-productos{
     text-align: center;
     padding: 1em;
-    margin-top: 2em;
-    font-size: 2em;
-    font-family: $fuente-titulo;
-    transition: all 2s;
-    border: 5px double $color-principal-kanki;
+    @extend %estilotitulo;
+    @include colores(#000,#fff,5px double $color-principal-kanki,all 2s);
     &:hover{
         color:$color-principal-kanki ;
         background-color: $color-footer;
@@ -104,20 +101,16 @@
     margin: 1em;
     font-size: 1em;
     font-family: $fuente-titulo;
-    border: 2px solid #000000;
-    background-color: #000000;
-    color: #fff;
+    @include colores(#fff,#000,2px solid #000,all 1s);
     border-radius: 50px;
-    transition: all 1s; 
+    
 
     &:hover{
         text-align: center;
         margin: 1em;
         font-size: 1em;
         font-family: $fuente-titulo;
-        border: 2px solid #000000;
-        background-color: #fff;
-        color: $color-principal-kanki;
+        @include colores($color-principal-kanki, #fff,2px solid #000,all 1s);
         border-radius: 50px;
     }
 

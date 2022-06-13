@@ -1,4 +1,5 @@
 @import'../base/variables';
+@import'../base/extend';
 
 /*Estilo de Body*/
 body{
@@ -11,19 +12,10 @@ body{
  /*Estilo de NAV*/
 
 .li-estilo{ 
-    color: $color-secundario-kanki;
-     transition: all 1s;
-
-    &:hover{
-        color: $color-principal-kanki;
-    }
-
-   
+    @extend %estilo-li;
 
     li a{
-        color: $color-secundario-kanki;
-        transition: all 1s;
-        &:hover{color: $color-principal-kanki;}
+        @extend %estilo-li;
             }
 
 
@@ -65,7 +57,7 @@ footer{
     justify-content: space-around;
 
     i{color: #fff;
-        margin: 10px auto;
+        margin: 1em auto;
         transition: all .5s;
         &:hover{
         color: $color-principal-kanki;

@@ -1,17 +1,15 @@
 @import'../base/variables';
+@import'../base/extend';
+@import'../base/mixins';
 
 /*COMIENZO DE ESTILO DE CATALOGO*/
 /*ESTILO TITULO*/
 
 .titulo-catalogo{
-    font-size: 2em;
-    font-family:$fuente-titulo;
-    margin-top: 2em;
-    color: #fff;
-    background-color: #000000;
-    border: 4px double #f8f9fa;
+    @extend %estilotitulo;
+    @include colores(#fff,#000,4px double #f8f9fa,all 1s);
     border-radius: 50px;
-    transition: all 1s;
+    
 
     &:hover{
         color: $color-principal-kanki;
@@ -50,11 +48,8 @@
 
 
 .div-talle{
-    background-color: $color-footer;
-    color: aliceblue;
+    @include colores(aliceblue,$color-footer,2px solid #000,all 1.5s);
     margin: 2em;
-    border: 2px solid #000;
-    transition: all 1.5s;
     cursor: default;
     &:hover{
         color: $color-principal-kanki;

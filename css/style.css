@@ -1,4 +1,32 @@
 @charset "UTF-8";
+.titulo-tabla-talles, .titulo-preguntas, .pago, .titulo-politicas, .titulo-terminos, .titulo-ayuda, .titulo-catalogo, .titulo-productos, .titulo-kanki {
+  font-family: "PT Serif", serif;
+  font-size: 2em;
+  margin-top: 2em;
+}
+
+.li-estilo li a, .li-estilo {
+  color: #daa520;
+  transition: all 1s;
+}
+.li-estilo li a:hover, .li-estilo:hover {
+  color: rgb(227, 143, 33);
+}
+
+.titulo-tabla-talles, .titulo-preguntas, .pago, .titulo-politicas, .titulo-terminos, .titulo-ayuda, .titulo-catalogo, .titulo-productos, .titulo-kanki {
+  font-family: "PT Serif", serif;
+  font-size: 2em;
+  margin-top: 2em;
+}
+
+.li-estilo li a, .li-estilo {
+  color: #daa520;
+  transition: all 1s;
+}
+.li-estilo li a:hover, .li-estilo:hover {
+  color: rgb(227, 143, 33);
+}
+
 /*Estilo section 1 index*/
 .video-div {
   border: 5px double #000;
@@ -7,9 +35,6 @@
 
 .titulo-kanki {
   text-align: center;
-  font-size: 2em;
-  font-family: "PT Serif", serif;
-  margin-top: 2em;
   transition: all 1s;
 }
 .titulo-kanki:hover {
@@ -42,11 +67,10 @@
 .titulo-productos {
   text-align: center;
   padding: 1em;
-  margin-top: 2em;
-  font-size: 2em;
-  font-family: "PT Serif", serif;
-  transition: all 2s;
+  color: #000;
+  background-color: #fff;
   border: 5px double rgb(227, 143, 33);
+  transition: all 2s;
 }
 .titulo-productos:hover {
   color: rgb(227, 143, 33);
@@ -87,20 +111,21 @@
   margin: 1em;
   font-size: 1em;
   font-family: "PT Serif", serif;
-  border: 2px solid #000000;
-  background-color: #000000;
   color: #fff;
-  border-radius: 50px;
+  background-color: #000;
+  border: 2px solid #000;
   transition: all 1s;
+  border-radius: 50px;
 }
 .productos-link-a-catalogo:hover {
   text-align: center;
   margin: 1em;
   font-size: 1em;
   font-family: "PT Serif", serif;
-  border: 2px solid #000000;
-  background-color: #fff;
   color: rgb(227, 143, 33);
+  background-color: #fff;
+  border: 2px solid #000;
+  transition: all 1s;
   border-radius: 50px;
 }
 .productos-link-a-catalogo a {
@@ -147,17 +172,28 @@
 }
 
 /* Fin de estilo de sección 3*/
+.titulo-tabla-talles, .titulo-preguntas, .pago, .titulo-politicas, .titulo-terminos, .titulo-ayuda, .titulo-catalogo, .titulo-kanki, .titulo-productos {
+  font-family: "PT Serif", serif;
+  font-size: 2em;
+  margin-top: 2em;
+}
+
+.li-estilo li a, .li-estilo {
+  color: #daa520;
+  transition: all 1s;
+}
+.li-estilo li a:hover, .li-estilo:hover {
+  color: rgb(227, 143, 33);
+}
+
 /*COMIENZO DE ESTILO DE CATALOGO*/
 /*ESTILO TITULO*/
 .titulo-catalogo {
-  font-size: 2em;
-  font-family: "PT Serif", serif;
-  margin-top: 2em;
   color: #fff;
-  background-color: #000000;
+  background-color: #000;
   border: 4px double #f8f9fa;
-  border-radius: 50px;
   transition: all 1s;
+  border-radius: 50px;
 }
 .titulo-catalogo:hover {
   color: rgb(227, 143, 33);
@@ -193,11 +229,11 @@
 }
 
 .div-talle {
-  background-color: #161616;
   color: aliceblue;
-  margin: 2em;
+  background-color: #161616;
   border: 2px solid #000;
   transition: all 1.5s;
+  margin: 2em;
   cursor: default;
 }
 .div-talle:hover {
@@ -212,26 +248,36 @@
   color: rgb(227, 143, 33);
 }
 
+.titulo-tabla-talles, .titulo-preguntas, .pago, .titulo-politicas, .titulo-terminos, .titulo-ayuda, .titulo-kanki, .titulo-productos, .titulo-catalogo {
+  font-family: "PT Serif", serif;
+  font-size: 2em;
+  margin-top: 2em;
+}
+
+.li-estilo li a, .li-estilo {
+  color: #daa520;
+  transition: all 1s;
+}
+.li-estilo li a:hover, .li-estilo:hover {
+  color: rgb(227, 143, 33);
+}
+
 /*ESTILO DE HTML AYUDA*/
 .titulo-ayuda {
   text-align: center;
-  font-size: 2em;
-  font-family: "PT Serif", serif;
-  margin-top: 2em;
-  transition: all 0.5s;
-  border: 5px double #fff;
-  background-color: #161616;
   color: #f8f9fa;
+  background-color: #161616;
+  border: 5px double #fff;
+  transition: all 0.5s;
 }
 .titulo-ayuda:hover {
-  color: rgb(227, 143, 33);
   transform: translateX(-0.3em);
+  color: rgb(227, 143, 33);
 }
 
 .titulo-terminos {
-  margin: 2em auto;
-  font-size: 2em;
-  font-family: "PT Serif", serif;
+  margin-left: auto;
+  margin-right: auto;
   color: rgb(227, 143, 33);
   transition: all 0.5s;
 }
@@ -240,9 +286,6 @@
 }
 
 .titulo-politicas {
-  font-size: 2em;
-  font-family: "PT Serif", serif;
-  margin-top: 2em;
   transition: all 0.5s;
 }
 .titulo-politicas:hover {
@@ -257,9 +300,6 @@
 }
 
 .pago {
-  font-size: 2em;
-  font-family: "PT Serif", serif;
-  margin-top: 2em;
   transition: all 1s;
 }
 .pago:hover {
@@ -267,9 +307,6 @@
 }
 
 .titulo-preguntas {
-  font-size: 2em;
-  font-family: "PT Serif", serif;
-  margin-top: 2em;
   transition: all 1.5s;
 }
 .titulo-preguntas:hover {
@@ -278,22 +315,17 @@
 }
 
 /*ESTILO DE TABLA*/
-.titulo-tabla-talles {
-  font-size: 2em;
-  font-family: "PT Serif", serif;
-  margin-top: 2em;
-}
-
 .table {
   margin-top: 4em;
 }
 
 /*ESTILO BOTÓN*/
 .boton-volver {
+  color: #000;
   background-color: rgb(227, 143, 33);
   border: 2px solid #161616;
-  margin: 2em;
   transition: all 1.5s;
+  margin: 2em;
 }
 .boton-volver:hover {
   background-color: #161616;
@@ -307,6 +339,20 @@
   color: rgb(227, 143, 33);
 }
 
+.titulo-kanki, .titulo-productos, .titulo-catalogo, .titulo-ayuda, .titulo-terminos, .titulo-politicas, .pago, .titulo-preguntas, .titulo-tabla-talles {
+  font-family: "PT Serif", serif;
+  font-size: 2em;
+  margin-top: 2em;
+}
+
+.li-estilo li a, .li-estilo {
+  color: #daa520;
+  transition: all 1s;
+}
+.li-estilo li a:hover, .li-estilo:hover {
+  color: rgb(227, 143, 33);
+}
+
 /*Estilo de Body*/
 body {
   margin: 0;
@@ -315,21 +361,6 @@ body {
 }
 
 /*Estilo de NAV*/
-.li-estilo {
-  color: #daa520;
-  transition: all 1s;
-}
-.li-estilo:hover {
-  color: rgb(227, 143, 33);
-}
-.li-estilo li a {
-  color: #daa520;
-  transition: all 1s;
-}
-.li-estilo li a:hover {
-  color: rgb(227, 143, 33);
-}
-
 ul li a {
   font-family: "Macondo", cursive;
 }
@@ -356,7 +387,7 @@ footer {
 }
 .footer-images-container i {
   color: #fff;
-  margin: 10px auto;
+  margin: 1em auto;
   transition: all 0.5s;
 }
 .footer-images-container i:hover {
