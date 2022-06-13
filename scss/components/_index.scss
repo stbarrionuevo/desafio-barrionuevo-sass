@@ -167,4 +167,10 @@
 .acordeon-estilo{
     margin: 4em;
 }
+
+.boton-acordeon{
+  @include colores(#000, $color-principal-kanki,2px solid #000,all 1s)
+      
+  
+}
 /* Fin de estilo de sección 3*/
