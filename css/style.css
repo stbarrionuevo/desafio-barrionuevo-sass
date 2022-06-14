@@ -368,6 +368,15 @@ body {
 }
 
 /*Estilo de NAV*/
+.b-estilo {
+  font-family: "PT Serif";
+  color: #daa520;
+  transition: all 1s;
+}
+.b-estilo:hover {
+  color: rgb(227, 143, 33);
+}
+
 ul li a {
   font-family: "Macondo", cursive;
 }

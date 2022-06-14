@@ -22,7 +22,14 @@ body{
 
 }
 
-
+.b-estilo{
+    font-family:"PT Serif";
+    color: map-get($map: $colores, $key:secundario );
+    transition: all 1s;
+    &:hover{
+        color: map-get($map:$colores , $key:primario );
+    }
+}
 
 
 ul
