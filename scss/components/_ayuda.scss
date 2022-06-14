@@ -19,7 +19,7 @@
     margin-left:auto;
     margin-right: auto;
     @extend %estilotitulo;
-    color: $color-principal-kanki;
+    color: map-get($map: $colores, $key:primario );
     transition: all .5s;
     &:hover{transform: translateX(-.3em);}
 }
@@ -30,7 +30,7 @@
     transition: all .5s;
     &:hover{
 
-    color: $color-principal-kanki;
+    color: map-get($map: $colores, $key:primario );
       transform: translateX(-.3em);
   
    
@@ -47,14 +47,14 @@
 .pago{
     @extend %estilotitulo;
     transition: all 1s;
-    &:hover{color: $color-secundario-kanki;}
+    &:hover{color: map-get($map: $colores, $key:secundario );}
 }
 
 .titulo-preguntas{
     @extend %estilotitulo;
     transition: all 1.5s;
     &:hover{
-        color: $color-principal-kanki;
+        color: map-get($map: $colores, $key:primario );
         transform: translateY(-1em);
     }
 }
@@ -76,11 +76,11 @@
     @include colores(#000,$color-principal-kanki,2px solid $color-footer, all 1.5s);
     margin: 2em;
     &:hover{
-        background-color: $color-footer;
+        background-color: map-get($map: $colores, $key:footer );
     }
 
     a{
-        color: #000;
+        color: map-get($map: $colores, $key:oscuro );
         text-decoration: none;
         transition: 1.5s;
         &:hover{color: $color-principal-kanki;}
