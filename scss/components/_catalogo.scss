@@ -47,6 +47,17 @@
     outline: 2px solid map-get($map: $colores, $key:primario );
 }
 
+.boton-cat{
+    background-color: map-get($map: $colores, $key:primario );
+    border:2px solid map-get($map: $colores, $key:footer );
+    color: map-get($map: $colores, $key:footer );
+    transition: all 1.5s;
+    &:hover{
+        background-color: map-get($map: $colores, $key:footer );
+        color:map-get($map: $colores, $key:claro2 );
+        border: 2px solid map-get($map: $colores, $key:primario );
+    }
+}
 
 .div-talle{
     @include colores(aliceblue,$color-footer,2px solid #000,all 1.5s);

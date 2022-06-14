@@ -235,6 +235,18 @@
   outline: 2px solid rgb(227, 143, 33);
 }
 
+.boton-cat {
+  background-color: rgb(227, 143, 33);
+  border: 2px solid #161616;
+  color: #161616;
+  transition: all 1.5s;
+}
+.boton-cat:hover {
+  background-color: #161616;
+  color: #fffff1;
+  border: 2px solid rgb(227, 143, 33);
+}
+
 .div-talle {
   color: aliceblue;
   background-color: #161616;
