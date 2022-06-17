@@ -17,7 +17,22 @@
         
     }
     
+/*staff*/
+.carta-staff{
+    margin: .5em;
+}
 
+
+.contenedor-perros{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    justify-items: center;
+}
+
+.img-perros{
+    width: 50%;
+}
 
     .wsp-logo{
         width: 8%;

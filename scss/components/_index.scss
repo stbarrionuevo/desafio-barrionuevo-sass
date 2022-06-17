@@ -5,28 +5,37 @@
 
 /*Estilo section 1 index*/
 
-.video-div {
-    border: 5px double #000;
-    width: 100%;   
-}
-
-.titulo-kanki {
+.contenedor-principal {
 
     text-align: center;
-    @extend %estilotitulo;
-    transition: all 1s;
-    &:hover{
-        color: map-get($map: $colores, $key:primario );
-        transform: translateX(-1em); 
-    }}
-
- 
-    
-
-.parrafo-kanki{
-        margin-top: 2em;
- }
-
+    background-color: map-get($map: $colores, $key:oscuro );
+    object-fit: cover;
+    padding: 2em;
+    margin: 3.8em 1em;
+     border: 4px solid map-get($map: $colores, $key:primario );
+   
+    .h-principal-index{
+        text-align: center;
+        font-size: 2.5em;
+        font-family: "PT Serif";
+        color: map-get($map: $colores, $key:claro );
+        transition: all 1s;
+        &:hover{
+            color: map-get($map: $colores, $key:primario );
+            
+        }
+    }
+    .p-titulo{
+        font-size: 1em;
+        font-family: "Macondo", cursive;
+        color: map-get($map: $colores, $key:claro2 );
+        transition: all 1s;
+        &:hover{
+            color: map-get($map: $colores, $key:secundario );
+            
+        }
+    }
+   } 
  /*ESTILO DE LOGO WSP */
 
 
@@ -56,8 +65,10 @@
 .titulo-productos{
     text-align: center;
     padding: 1em;
-    @extend %estilotitulo;
-    @include colores(#000,#fff,5px double $color-principal-kanki,all 2s);
+    font-family: $fuente-titulo;
+    font-size: 2em;
+    margin-top: -1.5em;
+    @include colores(#000,#fff,5px double $color-secundario-kanki,all 2s);
     &:hover{
         color:map-get($map: $colores, $key:primario ) ;
         background-color: map-get($map: $colores, $key:footer );
