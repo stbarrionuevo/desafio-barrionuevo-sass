@@ -1,7 +1,7 @@
 {
-  "name": "desafio-6",
+  "name": "kanki-store",
   "version": "1.0.0",
-  "description": "",
+  "description": "Kanki store es un emprendimiento de venta de indumentaria",
   "main": "index.js",
   "scripts": {
     
