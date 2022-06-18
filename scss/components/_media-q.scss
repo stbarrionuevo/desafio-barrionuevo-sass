@@ -8,6 +8,7 @@
     .redireccion-catalogo{
         display: none;
     }
+    /*CATALOGO*/
     .contenedor-cards{
 
         display: grid;
@@ -17,12 +18,12 @@
         
     }
     
-/*staff*/
+/*sobre nosotros staff*/
 .carta-staff{
     margin: .5em;
 }
 
-
+/*sobre nosotros nombre*/
 .contenedor-perros{
     display: grid;
     grid-template-columns: 1fr;
@@ -34,6 +35,9 @@
     width: 50%;
 }
 
+
+
+/*logo wsp y footer*/
     .wsp-logo{
         width: 8%;
     }

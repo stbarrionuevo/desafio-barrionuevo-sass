@@ -518,16 +518,18 @@ footer {
   .redireccion-catalogo {
     display: none;
   }
+  /*CATALOGO*/
   .contenedor-cards {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2em;
     justify-items: center;
   }
-  /*staff*/
+  /*sobre nosotros staff*/
   .carta-staff {
     margin: 0.5em;
   }
+  /*sobre nosotros nombre*/
   .contenedor-perros {
     display: grid;
     grid-template-columns: 1fr;
@@ -537,6 +539,7 @@ footer {
   .img-perros {
     width: 50%;
   }
+  /*logo wsp y footer*/
   .wsp-logo {
     width: 8%;
   }
