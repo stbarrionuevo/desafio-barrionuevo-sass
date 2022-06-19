@@ -525,6 +525,12 @@ footer {
     gap: 2em;
     justify-items: center;
   }
+  .images-catalogo {
+    transition: none;
+  }
+  .images-catalogo:hover {
+    transform: none;
+  }
   /*sobre nosotros staff*/
   .carta-staff {
     margin: 0.5em;

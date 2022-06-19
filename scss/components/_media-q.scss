@@ -17,6 +17,11 @@
         justify-items: center;
         
     }
+
+    .images-catalogo{
+        transition: none;
+        &:hover{transform: none;}
+    }
     
 /*sobre nosotros staff*/
 .carta-staff{
