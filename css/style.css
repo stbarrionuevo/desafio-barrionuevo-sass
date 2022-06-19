@@ -191,6 +191,10 @@
   transition: all 1s;
 }
 
+.envios-container {
+  margin: 4em;
+}
+
 /* Fin de estilo de sección 3*/
 .staff-titulo, .titulo-nosotros, .titulo-nombre, .titulo-tabla-talles, .titulo-preguntas, .pago, .titulo-politicas, .titulo-terminos, .titulo-ayuda, .titulo-catalogo {
   font-family: "PT Serif", serif;
