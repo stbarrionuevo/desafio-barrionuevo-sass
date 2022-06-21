@@ -5,3 +5,10 @@
     transition: $transicion;
     
 }
+
+@mixin mwh ($margen, $medida-w, $medida-h){
+    margin: $margen;
+    width: $medida-w;
+    height: $medida-h;
+}
+    

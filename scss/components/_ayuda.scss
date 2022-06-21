@@ -43,6 +43,7 @@
 .iconos-medios-pago{
     width: 10%;
     margin: 2em;
+    @include mwh(2em,10%,auto)
 }
 .pago{
     @extend %estilotitulo;

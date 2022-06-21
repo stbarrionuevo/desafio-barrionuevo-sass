@@ -23,7 +23,7 @@ body{
 }
 
 .b-estilo{
-    font-family:"PT Serif";
+    font-family:$fuente-titulo;
     color: map-get($map: $colores, $key:secundario );
     transition: all 1s;
     &:hover{

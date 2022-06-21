@@ -41,13 +41,11 @@
 
 .wsp-logo { 
     
-    width: 5%;
-    
+   
+    @include mwh(1em auto, 5%,auto);
     position: fixed;
     bottom: 0;
     right: 0;
-    margin-bottom: 1em;
-    margin-right: 1em;
     border-radius: 80%;
     transition: all 5s;  
     &:hover{
@@ -138,12 +136,13 @@
         text-decoration: none;
         color: $color-principal-kanki;
         background:none;
-       border: none;
+         border: none;
         
         margin-left: .2em;
         display: inline-block;
         transition: all .5s;
-        &:hover{color: map-get($map: $colores, $key:oscuro );
+         &:hover{
+            color: map-get($map: $colores, $key:oscuro );
             border: none;}
     }
   

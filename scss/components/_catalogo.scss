@@ -31,10 +31,9 @@
 /*ESTILO DE IMGS*/
 
 .images-catalogo {
-    width: 100%;
-    height: 80%;
-    margin: 1em auto;
-   border: 2px solid map-get($map: $colores, $key:oscuro );
+
+     @include mwh(1em auto,100%,80%);
+    border: 2px solid map-get($map: $colores, $key:oscuro );
     transition: all .5s;
    &:hover{
     cursor: zoom-in;
