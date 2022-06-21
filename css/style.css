@@ -547,6 +547,9 @@ footer {
     gap: 2em;
     justify-items: center;
   }
+  .div-talle h2 {
+    font-size: 1em;
+  }
   /*ayuda iconos*/
   .iconos-medios-pago {
     width: 25%;
