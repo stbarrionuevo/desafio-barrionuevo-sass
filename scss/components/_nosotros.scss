@@ -26,7 +26,7 @@
     cursor: default;
     &:hover{
         transform: scale(90%);
-        filter: grayscale(80%);
+        
     
         
     }
@@ -37,12 +37,18 @@
     border: 2px solid map-get($map: $colores, $key:footer );
 }
 
+.contenedor-perros{
+    margin: auto 2em;
+}
+
 .img-perros{
     border: 4px solid map-get($map: $colores, $key:primario );
     transition: all .5s;
+    margin-top: 2em;
     &:hover{
-        border: 4px solid map-get($map: $colores, $key:secundario );
-        filter: blur(5px);
+        border: 8px double map-get($map: $colores, $key:secundario );
+    
+        
     }
 }
 .seccion-3{
